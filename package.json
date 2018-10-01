@@ -1,0 +1,24 @@
+{
+  "name": "double-submit-cookies-pattern",
+  "version": "1.0.0",
+  "description": "Double Submit Cookies pattern for CSRF protection in web applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntbandara3/double-submit-cookies-pattern.git"
+  },
+  "author": "Nandun Bandara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntbandara3/double-submit-cookies-pattern/issues"
+  },
+  "homepage": "https://github.com/ntbandara3/double-submit-cookies-pattern#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3"
+  }
+}
