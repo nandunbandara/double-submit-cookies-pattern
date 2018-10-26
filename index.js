@@ -27,8 +27,11 @@ app.listen(PORT, err => {
 });
 
 app.get('/', (req, res) => {
-    
-    
+    if(req.cookies['csrf-token'] && req.cookies['session-id']){
+        res.redirect('/form.html');
+        return;
+    }
+    res.redirect('/login.html');
 });
 
 // handle user login and token generation
