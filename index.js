@@ -2,7 +2,7 @@ const
     express = require('express'),
     bodyParser = require('body-parser'),
     cookieParser = require('cookie-parser'),
-    randomBytes = require('random- bytes'),
+    randomBytes = require('random-bytes'),
 
     app = express(),
 
